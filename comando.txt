@@ -1,1 +1,4 @@
 php vendor/mysql-workbench-schema-exporter/mysql-workbench-schema-exporter/bin/mysql-workbench-schema-export --export=doctrine2-annotation test.mwb src/CoreBundle/Entity
+
+/*comando admin*/
+php bin/console generate:doctrine:crud --entity=ErotikaBackendBundle:Administradores --format=annotation --with-write --no-interaction --overwrite
